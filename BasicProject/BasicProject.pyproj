@@ -39,8 +39,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloFlask\templates\index.html" />
     <Content Include="requirements.txt" />
-    <Content Include="templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HelloFlask\" />
-    <Folder Include="templates\" />
+    <Folder Include="HelloFlask\templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
